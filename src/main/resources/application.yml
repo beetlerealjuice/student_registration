@@ -1,0 +1,9 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: student_registration
+
+app:
+  student-init:
+    enabled: ${STUDENT_INIT_ENABLED:false}
